@@ -1,6 +1,9 @@
 {
   "name": "ember-stencil-demo",
   "private": true,
+  "scripts": {
+    "start": "cd packages/ember-demo && ember serve"
+  },
   "devDependencies": {
     "lerna": "^3.4.3"
   }
