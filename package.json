@@ -1,0 +1,7 @@
+{
+  "name": "ember-stencil-demo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}
