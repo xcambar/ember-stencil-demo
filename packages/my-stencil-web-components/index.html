@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <my-component>
+    <span slot="my-name">You</span>
+  </my-component>
+  <script src='./dist/my-stencil-web-components.js'></script>
+  <my-component></my-component>
+  <script>
+    document.body.appendChild(document.createElement('other-component'))
+  </script>
+</body>
+</html>
