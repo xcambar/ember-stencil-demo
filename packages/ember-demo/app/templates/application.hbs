@@ -1,0 +1,8 @@
+<my-component greeting={{greeting}} {{action 'toggleGreeting' on='click'}}>
+  {{#if withSlot}}
+    <span slot="my-name">{{name}}</span>
+  {{/if}}
+</my-component>
+<button {{action 'toggleSlot'}}>Toggle Slot</button>
+<other-component></other-component>
+{{outlet}}
