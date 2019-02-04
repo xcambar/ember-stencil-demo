@@ -14,6 +14,7 @@ in an Ember app. This covers:
 
 * Clone the repo
 * `npx lerna bootstrap`
+* `cd packages/my-stencil-web-components && npm run build && cd ../..`
 
 ## Usage
 
